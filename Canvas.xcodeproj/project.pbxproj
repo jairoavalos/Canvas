@@ -19,6 +19,8 @@
 		86D3FF12195C883B004DA8CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D3FEFA195C883B004DA8CE /* UIKit.framework */; };
 		86D3FF1A195C883B004DA8CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86D3FF18195C883B004DA8CE /* InfoPlist.strings */; };
 		86D3FF1C195C883B004DA8CE /* CanvasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D3FF1B195C883B004DA8CE /* CanvasTests.m */; };
+		86D3FF28195C888A004DA8CE /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D3FF26195C888A004DA8CE /* CanvasViewController.m */; };
+		86D3FF29195C888A004DA8CE /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86D3FF27195C888A004DA8CE /* CanvasViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		86D3FF17195C883B004DA8CE /* CanvasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanvasTests-Info.plist"; sourceTree = "<group>"; };
 		86D3FF19195C883B004DA8CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86D3FF1B195C883B004DA8CE /* CanvasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasTests.m; sourceTree = "<group>"; };
+		86D3FF25195C888A004DA8CE /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		86D3FF26195C888A004DA8CE /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		86D3FF27195C888A004DA8CE /* CanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				86D3FF06195C883B004DA8CE /* AppDelegate.m */,
 				86D3FF08195C883B004DA8CE /* Images.xcassets */,
 				86D3FEFD195C883B004DA8CE /* Supporting Files */,
+				86D3FF25195C888A004DA8CE /* CanvasViewController.h */,
+				86D3FF26195C888A004DA8CE /* CanvasViewController.m */,
+				86D3FF27195C888A004DA8CE /* CanvasViewController.xib */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D3FF29195C888A004DA8CE /* CanvasViewController.xib in Resources */,
 				86D3FF01195C883B004DA8CE /* InfoPlist.strings in Resources */,
 				86D3FF09195C883B004DA8CE /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			files = (
 				86D3FF07195C883B004DA8CE /* AppDelegate.m in Sources */,
 				86D3FF03195C883B004DA8CE /* main.m in Sources */,
+				86D3FF28195C888A004DA8CE /* CanvasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

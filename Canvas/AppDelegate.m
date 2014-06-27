@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CanvasViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    CanvasViewController *cVC = [[CanvasViewController alloc] init];
+    [self.window setRootViewController:cVC];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
