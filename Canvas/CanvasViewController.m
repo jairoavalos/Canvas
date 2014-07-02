@@ -155,7 +155,7 @@
     if (sender.state == UIGestureRecognizerStateBegan) {
         // Show and create image copy
         usCrest = [UIImage imageNamed:@"us-crest"];
-        self.createdImageView = [[UIImageView alloc] initWithFrame:CGRectMake(touchPosition.x, touchPosition.y - 50, usCrest.size.width * 2, usCrest.size.height * 2)];
+        self.createdImageView = [[UIImageView alloc] initWithFrame:CGRectMake(touchPosition.x, touchPosition.y, usCrest.size.width * 2, usCrest.size.height * 2)];
         [self.createdImageView setImage:usCrest];
         [self.view addSubview:self.createdImageView];
         
@@ -187,7 +187,7 @@
     if (sender.state == UIGestureRecognizerStateBegan) {
         // Show and create image copy
         germanyCrest = [UIImage imageNamed:@"germany-crest"];
-        self.createdImageView = [[UIImageView alloc] initWithFrame:CGRectMake(touchPosition.x, touchPosition.y - 50, germanyCrest.size.width * 2, germanyCrest.size.height * 2)];
+        self.createdImageView = [[UIImageView alloc] initWithFrame:CGRectMake(touchPosition.x, touchPosition.y, germanyCrest.size.width * 2, germanyCrest.size.height * 2)];
         [self.createdImageView setImage:germanyCrest];
         [self.view addSubview:self.createdImageView];
         
@@ -219,7 +219,7 @@
     if (sender.state == UIGestureRecognizerStateBegan) {
         // Show and create image copy
         portugalCrest = [UIImage imageNamed:@"portugal-crest"];
-        self.createdImageView = [[UIImageView alloc] initWithFrame:CGRectMake(touchPosition.x, touchPosition.y - 50, portugalCrest.size.width * 2, portugalCrest.size.height * 2)];
+        self.createdImageView = [[UIImageView alloc] initWithFrame:CGRectMake(touchPosition.x, touchPosition.y, portugalCrest.size.width * 2, portugalCrest.size.height * 2)];
         [self.createdImageView setImage:portugalCrest];
         [self.view addSubview:self.createdImageView];
         
@@ -250,7 +250,7 @@
     if (sender.state == UIGestureRecognizerStateBegan) {
         // Show and create image copy
         ghanaCrest = [UIImage imageNamed:@"ghana-crest"];
-        self.createdImageView = [[UIImageView alloc] initWithFrame:CGRectMake(touchPosition.x, touchPosition.y - 50, ghanaCrest.size.width * 2, ghanaCrest.size.height * 2)];
+        self.createdImageView = [[UIImageView alloc] initWithFrame:CGRectMake(touchPosition.x, touchPosition.y, ghanaCrest.size.width * 2, ghanaCrest.size.height * 2)];
         [self.createdImageView setImage:ghanaCrest];
         [self.view addSubview:self.createdImageView];
         
