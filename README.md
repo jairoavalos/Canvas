@@ -19,4 +19,4 @@ Approximately 6 hours
 - Optional: Add a camera icon to the trayOptional: Tapping the camera icon opens the camera.
 - Optional: After taking a picture, the picture is added to the view as a background view
 
-![alt text](https://raw.githubusercontent.com/jairoavalos/Facebook-Feed/master/Facebook-HW2.gif "Canvas")
+![alt text](https://raw.githubusercontent.com/jairoavalos/Canvas/master/Canvas-HW4.gif "Canvas")
